@@ -1,10 +1,9 @@
 <?php
 
 // membutuhkan pemanggilan akses koneksi (mysql)
-// (DISI)
-
+include 'koneksi.php';
 // menjalankan sessions
-// (DISI)
+session_start();
 
 // check apakah session email sudah ada atau belum.
 // jika belum maka akan diredirect ke halaman index (login)
@@ -95,10 +94,11 @@ if (empty($_SESSION['uname'])) {
                     </li>
                     <br>
                     <li class="nav-item">
-                        <p><strong>NAMA KALIAN</strong></p>
+                        <p><strong>FADLYRAMDHANI</strong></p>
+                    
                     </li>
                     <li class="nav-item">
-                        <p>NIM KALIAN</p>
+                        <p>6706213127</p>
                     </li>
                     </li>
                 </ul>
